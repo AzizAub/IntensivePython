@@ -8,6 +8,7 @@ def even_or_odd(lst) -> tuple:
             odd_numb.append(numb)
     return (even_numb, odd_numb)
 
+
 assert even_or_odd([1, 2, 3, 4, 5]) == ([2, 4], [1, 3, 5])
 assert even_or_odd([45, 44, 102, 1045]) == ([44, 102], [45, 1045])
 assert even_or_odd([1, 3, 5, 7]) == ([], [1, 3, 5, 7])
